@@ -7,14 +7,20 @@ Dentro do diretório bin do GraphViz, utilizando algum terminal (cmd, Powershell
 
 ## Mini passo-a-passo para utilizar o Visual Studio Code com C++ (visando o projeto BinTreeCPP):
 1) Baixar o VS Code: https://code.visualstudio.com/download
+   
 2) Baixar extensão C++: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+   
 3) Escolher qual compilador C++ baixar: MSVC (Microsoft, o mesmo do Visual Studio) ou MinGW (open source). Se tiver computador Mac, escolher o Clang: https://code.visualstudio.com/docs/languages/cpp
 
 Se estiver usando o Windows e escolher o MinGW:
+
 4) Baixar o MinGW-w64: https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe
+
 5) Instalar
-6) Se estiver em um computador que não tenha acesso de adm:
-set PATH=%PATH%;C:\msys64\ucrt64\bin
+
+6) Se estiver em um computador que não tenha acesso de adm, adicionar temporariamente ao path com este comando (via terminal):
+```set PATH=%PATH%;C:\msys64\ucrt64\bin```
+
 7) O arquivo json deve conter os arquivos do projeto:
 ```{
     "tasks": [
