@@ -5,7 +5,7 @@ Info temporária para exercício BST - é necessário baixar o GraphViz: https:/
 Dentro do diretório bin do GraphViz, utilizando algum terminal (cmd, Powershell, bash etc): 
 ```.\dot -Tsvg dotFiles\ArvoreBinGerado.dot -o SVGFiles\ArvoreBinGerado.svg```
 
-## Mini passo-a-passo para utilizar o Visual Studio Code com C++ (visando o projeto ArvoreBin):
+## Mini passo-a-passo para utilizar o Visual Studio Code com C++ (visando o projeto BinTreeCPP):
 1) Baixar o VS Code: https://code.visualstudio.com/download
 2) Baixar extensão C++: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 3) Escolher qual compilador C++ baixar: MSVC (Microsoft, o mesmo do Visual Studio) ou MinGW (open source). Se tiver computador Mac, escolher o Clang: https://code.visualstudio.com/docs/languages/cpp
